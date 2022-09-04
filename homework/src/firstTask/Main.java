@@ -24,6 +24,5 @@ public class Main {
         double squareRectangle = length*width;
         double squareCircl = Math.PI*radius*radius;
         return squareRectangle < squareCircl ? "Еhe circle closes the rectangle":"The circle does not cover the rectangle!";
-
     }
 }
