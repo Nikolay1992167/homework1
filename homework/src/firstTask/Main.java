@@ -21,9 +21,9 @@ public class Main {
         }
     }
     private static String result(int length, int width, int radius){
-        double squareRectangle = length*width;
-        double squareCircl = Math.PI*radius*radius;
-        return squareRectangle < squareCircl ? "Еhe circle closes the rectangle":"The circle does not cover the rectangle!";
+        double diagonalRectangle = Math.hypot(length, width);
+        double diameterCircl = 2*radius;
+        return diagonalRectangle < diameterCircl ? "Еhe circle closes the rectangle":"The circle does not cover the rectangle!";
     }
 }
 
