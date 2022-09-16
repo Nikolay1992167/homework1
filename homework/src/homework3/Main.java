@@ -6,7 +6,6 @@ public class Main {
         divisionIntoPositiveAndNegativeNumbers(mainArray(-100000, 100000));
         arrayPrimeNumbers(mainArray(-100000, 100000));
     }
-
     private static int[] mainArray(int beginningOfTheInterval, int endOfTheInterval) {
         int arraySize = 0;
         for (int i = beginningOfTheInterval; i <= endOfTheInterval; i++) {
@@ -18,7 +17,6 @@ public class Main {
         }
         return result;
     }
-
     private static void divisionIntoPositiveAndNegativeNumbers(int[] result) {
         int dimensionArrayPositiveNumbers = 0;
         int dimensionArrayNegativeNumbers = 0;
@@ -49,7 +47,6 @@ public class Main {
             System.out.print(element + " ");
         }*/
     }
-
     private static int[] arrayPrimeNumbers(int[] result) {
         int dimensionArrayPrimeNumbers = 0;
         for (int i = 0; i < result.length; i++) {
