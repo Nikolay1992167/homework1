@@ -3,8 +3,12 @@ package homework4;
 public class Main {
 
     public static void main(String[] args) {
-        String stringBeingСhecked = " Listen to the news from today and read the text at the   same time. Listen to the news from today without reading the text. ";
+        String stringBeingСhecked = " My name's David. We're in a small village near Chicago. My name's David. ";
         calculationUniqueNumberWords(stringBeingСhecked);
+    }
+
+    private static void printResult(String message) {
+        System.out.println(message);
     }
 
     private static int calculationUniqueNumberWords(String text) {
@@ -22,7 +26,7 @@ public class Main {
                 calculation = calculation + 1;
             }
         }
-        System.out.println(calculation);
+        printResult("Unique number of words in the text: " + calculation);
         return calculation;
     }
 }
