@@ -1,7 +1,7 @@
 package homework5;
 
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         AirTransport boeing_777 = new PassengerAircraft(10, 4500);
         AirTransport an_225 = new CargoAirplane(1500, 5000);
         AirTransport mi_8 = new PassengerHelicopter(22, 800);
@@ -14,6 +14,8 @@ public class Main {
         Aircraft[3] = mi_26;
 
         sortAirTransport(Aircraft);
+         /*Не смог понять почему не работает, распиши пожалуйста поподробней косяки и можно ли это реализовать циклом как я там дальше пытался.
+         * так не оставлю буду наследование грызть дальше :) */
 
         int sumCapasiti = 0;
         int sumPassengerCount = 0;
@@ -48,8 +50,6 @@ public class Main {
         }
         System.out.println(sumCapasiti);
         System.out.println(sumCapasiti);*/
-
-
     }
 
     private static void sortAirTransport(AirTransport[] var) {
