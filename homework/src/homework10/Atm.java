@@ -2,7 +2,6 @@ package homework10;
 
 public class Atm implements Runnable {
     private final Service service;
-    public Card card;
 
     public Atm(Service service) {
         this.service = service;

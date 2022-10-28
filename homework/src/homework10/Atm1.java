@@ -3,7 +3,6 @@ package homework10;
 public class Atm1 implements Runnable {
 
     private final Service service;
-    public Card card;
 
     public Atm1(Service service) {
         this.service = service;
