@@ -1,18 +1,18 @@
 package homework10;
 
 public class Main {
-    public Main() {
-    }
+    public static void main(String[] args) throws InterruptedException {
+        Card debit = new Card(1234, 50, "Debet");
+        Service service = new Service(debit);
+        Thread atm1 = new Thread(new Atm(service));
+        Thread atm2 = new Thread(new Atm1(service));
 
-    public static void main(String[] args) {
-        Atm atm = new Atm();
-
-        try {
-            Atm.showGreetings();
-            atm.dataProcessing();
-        } catch (ServiceException var3) {
-            System.out.println(var3.getMessage());
+        if (debit.getSummoney() > 0) {
+            atm1.start();
+            atm2.start();
+        } else {
+                atm1.interrupt();
+                atm2.interrupt();
         }
-
     }
 }

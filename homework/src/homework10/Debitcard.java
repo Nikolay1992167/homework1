@@ -6,12 +6,5 @@ public class Debitcard extends Card {
         super(password, summoney, name);
     }
 
-    public void reduceTheBalance(int money) {
-        if (money <= this.getSummoney()) {
-            super.reduceTheBalance(money);
-        } else {
-            System.out.println("Insufficient funds!");
-        }
 
-    }
 }

@@ -1,23 +1,27 @@
 package homework10;
 
-public class Atm implements Runnable {
+public class Atm1 implements Runnable {
+
     private final Service service;
     public Card card;
 
-    public Atm(Service service) {
+    public Atm1(Service service) {
         this.service = service;
     }
 
+
     @Override
     public void run() {
-        System.out.println("start two!");
+        System.out.println("Start one!");
         try {
             while (!Thread.currentThread().isInterrupted()) {
-                service.replenishBalance(3);
+                service.reduceBalance(5);
             }
         } catch (NullPointerException ex) {
             Thread.currentThread().interrupt();
-            System.out.println("stop two!");
+            System.out.println("stop one!");
         }
     }
 }
+
+

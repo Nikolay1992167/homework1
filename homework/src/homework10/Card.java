@@ -12,19 +12,11 @@ public class Card {
     }
 
     public void increaseTheBalance(int money) {
-        this.checkTheEnteredAmount(money);
         this.summoney += money;
     }
 
     public void reduceTheBalance(int money) {
-        this.checkTheEnteredAmount(money);
         this.summoney -= money;
-    }
-
-    public void checkTheEnteredAmount(int summaMoney) {
-        if (summaMoney < 0) {
-            throw new ServiceException("Wrong summa money! Negative number");
-        }
     }
 
     public int getPassword() {
