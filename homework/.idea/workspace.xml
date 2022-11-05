@@ -4,16 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4361f790-8909-4e3e-8faa-b4d1288f4eb2" name="Changes" comment="" />
+    <list default="true" id="4361f790-8909-4e3e-8faa-b4d1288f4eb2" name="Changes" comment="homework_10">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_0_27_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_0_27__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_0_37_[Changes]/b5821a42a71cd4b829a5a88dfe59e5180dd5e186" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_0_37_[Changes]/da54f5249e3ec317a3b151ca69d051c24591e517" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_0_37_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_10_2022_0_37__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Homework_6" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -34,20 +49,51 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Обучение IT Academy/TrainingProjects/homeworks/homework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Обучение IT Academy/TrainingProjects/homeworks/homework/src/homework10&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.homework7.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Обучение IT Academy\TrainingProjects\homeworks\homework\src\homework10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.homework12.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework5.Main" />
       <module name="homework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework11.Main" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework12.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework12.Main" />
+      <module name="homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,17 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.homework12.Main" />
+      <item itemvalue="Application.homework11.Main" />
       <item itemvalue="Application.homework4.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.homework7.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework12.Main" />
         <item itemvalue="Application.homework7.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework4.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.homework7.Main" />
+        <item itemvalue="Application.homework11.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +162,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665093019261</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework11">
+      <created>1666800557986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666800557986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework_10">
+      <created>1666996057037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666996057037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="homework10">
+      <created>1666996393429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666996393429</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homework_10">
+      <created>1666997063864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666997063864</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +206,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="пр" />
-    <option name="LAST_COMMIT_MESSAGE" value="пр" />
+    <MESSAGE value="homework11" />
+    <MESSAGE value="homework10" />
+    <MESSAGE value="homework_10" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_10" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
