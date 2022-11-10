@@ -9,14 +9,17 @@ public class Atm implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("start two!");
-        try {
-            while (!Thread.currentThread().isInterrupted()) {
+        while (!Thread.currentThread().isInterrupted()) {
+            try {
                 service.replenishBalance(3);
+                Thread.sleep(400);
+            } catch (IllegalArgumentException ex) {
+                System.out.println("Thread stop atm1!");
+                Thread.currentThread().interrupt();
+            } catch (InterruptedException ex) {
+                Thread.currentThread().interrupt();
+                ex.printStackTrace();
             }
-        } catch (NullPointerException ex) {
-            Thread.currentThread().interrupt();
-            System.out.println("stop two!");
         }
     }
 }
